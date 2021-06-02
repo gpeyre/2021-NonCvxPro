@@ -1,0 +1,10 @@
+This directory contains the code to reproduce the experiment on the Beckmann Wasserstein-1 problem.
+
+It compares three algorithms:
+- Noncvx-Pro (non-convex variable projection)
+- Douglas-Rachford
+- Primal-Dual
+
+The two main scripts are:
+- Demo_BeckmannGraph.m: test on a 3D mesh (default: 20K vertex cortex) with finite element Laplacian.
+- Demo_BeckmannMesh.m: test on a graph (default: K-NN graph on baker's yeast genomic expression) with the graph Laplacian.
